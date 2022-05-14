@@ -1,0 +1,81 @@
+footer {
+  background: url(../images/bg-footer.jpg) no-repeat;
+  background-size: cover;
+}
+
+footer .cotas-vendidas {
+  padding-top: 2%;
+}
+
+footer .cotas-vendidas h1 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  color: white;
+  font-size: 5vw;
+}
+
+footer .cotas-vendidas h2 {
+  font-family: 'AkzidenzGroteskBQ Light', sans-serif;
+  color: white;
+  font-size: 4vw;
+  margin-top: 0px;
+}
+
+footer .cotas-vendidas h3 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  color: white;
+  font-size: 3.6vw;
+  margin-top: 0;
+}
+
+footer .cotas-vendidas img {
+  width: 84%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+footer .barra-footer .warner h1 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  font-size: 4vw;
+  color: white;
+}
+
+footer .barra-footer .warner img {
+  width: 40%;
+  padding-top: 1%;
+}
+
+footer .redes-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 7%;
+  padding-bottom: 10%;
+}
+
+footer .redes-footer .insta-footer,
+footer .redes-footer .face-footer,
+footer .redes-footer .linkedin-footer {
+  margin-right: 15px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer .cotas-vendidas h1 {
+    margin-bottom: 4px;
+  }
+  footer .cotas-vendidas h2 {
+    margin-bottom: 4px;
+  }
+  footer .cotas-vendidas h3 {
+    margin-bottom: 4px;
+    margin-top: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=footer.css.map */

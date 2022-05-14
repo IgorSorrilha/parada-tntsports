@@ -1,0 +1,11 @@
+.padding-off {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+@media(max-width:767px) {
+    .padding-off-mobile {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}

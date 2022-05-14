@@ -1,0 +1,332 @@
+@font-face {
+  font-family: 'AkzidenzGroteskBQ Light';
+  src: url("../fonts/Akzidenz-Grotesk BQ Light Condensed.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'AkzidenzGroteskBQ MdCndAlt';
+  src: url("../fonts/AkzidenzGrotesk-MediumCondAlt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt';
+  src: url("../fonts/AkzidenzGroteskBQ-BdCndAlt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'AkzidenzGroteskBQ Medium';
+  src: url("../fonts/akzidenz-grotesk-bq-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Helvetica Cond';
+  src: url("../fonts/HelveticaLTStd-Cond.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Helvetica Roman';
+  src: url("../fonts/HelveticaLTStd-Roman.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'ATT Aleck Cd Bold';
+  src: url("../fonts/ATTAleckCd_Bd.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'ATT Aleck Cd Regular';
+  src: url("../fonts/ATT Aleck Cd Regular.ttf") format("truetype");
+}
+
+.padding-off {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+@media (max-width: 767px) {
+  .padding-off-mobile {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+body {
+  background: url(../images/bg-geral.jpg) repeat;
+  background-size: contain;
+}
+
+.home {
+  background: url(../images/home-img.png) no-repeat;
+  background-size: cover;
+  padding-top: 4%;
+  padding-bottom: 43%;
+}
+
+.home img {
+  width: 68%;
+}
+
+.home p {
+  font-family: 'AkzidenzGroteskBQ MdCndAlt', sans-serif;
+  color: white;
+  font-size: 2.9vw;
+  padding-top: 5%;
+  line-height: 3.4vw;
+}
+
+.home .img-paulistao {
+  width: 45%;
+  padding-top: 30px;
+}
+
+.home h3 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  font-size: 3.7vw;
+  color: #ea2667;
+  font-weight: 900;
+}
+
+.engajamento {
+  padding-top: 10px;
+}
+
+.engajamento h2 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  color: white;
+  font-size: 4vw;
+}
+
+.engajamento h4 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  color: white;
+  font-size: 2.5vw;
+  padding-top: 15px;
+}
+
+.engajamento .numeros h4 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  font-size: 7vw;
+  color: #5bc5f2;
+}
+
+.engajamento .numeros h5 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  color: #5bc5f2;
+  font-size: 2.3vw;
+  margin-top: -15px;
+}
+
+.engajamento .numeros span {
+  text-transform: uppercase;
+  font-size: 4.4vw;
+}
+
+.engajamento .numeros small {
+  font-family: 'AkzidenzGroteskBQ MdCndAlt', sans-serif;
+  color: #5bc5f2;
+}
+
+.redes {
+  padding-top: 50px;
+}
+
+.redes a {
+  margin-right: 30px;
+}
+
+.redes .row-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.redes .row-redes img {
+  margin-right: 15px;
+}
+
+.info-transmissao .logo-paulistao {
+  width: 35%;
+  padding-top: 55px;
+}
+
+.info-transmissao .img-transmissao {
+  margin-top: -6%;
+  padding-bottom: 11%;
+}
+
+.conteudo .txt-conteudo h1 {
+  font-family: 'Helvetica Cond', sans-serif;
+  font-size: 3vw;
+  color: #e72868;
+}
+
+.conteudo .txt-conteudo h2 {
+  font-family: 'Helvetica Roman', sans-serif;
+  font-size: 2.2vw;
+  color: white;
+}
+
+.conteudo .txt-conteudo h3 {
+  font-family: 'ATT Aleck Cd Bold', sans-serif;
+  font-size: 2vw;
+  color: white;
+  padding-top: 30px;
+}
+
+.conteudo .txt-conteudo p {
+  font-family: 'ATT Aleck Cd Regular', sans-serif;
+  font-size: 1vw;
+  color: white;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.numeros-audiencia {
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .home {
+    background: url(../images/home-img-mobile.png) no-repeat;
+    background-size: cover;
+    padding-top: 13%;
+    padding-bottom: 45%;
+  }
+  .home img {
+    width: 75%;
+  }
+  .home p {
+    font-size: 3.5vw;
+    padding-right: 5px;
+  }
+  .home .img-paulistao {
+    padding-top: 2%;
+  }
+  .engajamento h4 {
+    padding-top: 5px;
+  }
+  .engajamento .numeros h5 {
+    margin-top: -10px;
+  }
+  .engajamento .numeros h4 {
+    margin-top: 5px;
+  }
+  .engajamento small {
+    font-family: 'AkzidenzGroteskBQ MdCndAlt', sans-serif;
+    color: #5bc5f2;
+    font-size: 9px;
+  }
+  .redes {
+    padding-top: 30px;
+  }
+  .redes .row-redes img {
+    width: 50%;
+  }
+  .conteudo .txt-conteudo h1 {
+    font-size: 4vw;
+  }
+  .conteudo .txt-conteudo h2 {
+    font-size: 2.7vw;
+  }
+  .conteudo .txt-conteudo h3 {
+    font-size: 2.4vw;
+    padding-top: 0px;
+  }
+  .conteudo .txt-conteudo p {
+    font-size: 1.5vw;
+    padding-left: 3%;
+  }
+  .info-transmissao .logo-paulistao {
+    padding-top: 15px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+footer {
+  background: url(../images/bg-footer.jpg) no-repeat;
+  background-size: cover;
+}
+
+footer .cotas-vendidas {
+  padding-top: 2%;
+}
+
+footer .cotas-vendidas h1 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  color: white;
+  font-size: 5vw;
+}
+
+footer .cotas-vendidas h2 {
+  font-family: 'AkzidenzGroteskBQ Light', sans-serif;
+  color: white;
+  font-size: 4vw;
+  margin-top: 0px;
+}
+
+footer .cotas-vendidas h3 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  color: white;
+  font-size: 3.6vw;
+  margin-top: 0;
+}
+
+footer .cotas-vendidas img {
+  width: 84%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+footer .barra-footer .warner h1 {
+  font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+  font-size: 4vw;
+  color: white;
+}
+
+footer .barra-footer .warner img {
+  width: 40%;
+  padding-top: 1%;
+}
+
+footer .redes-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 7%;
+  padding-bottom: 10%;
+}
+
+footer .redes-footer .insta-footer,
+footer .redes-footer .face-footer,
+footer .redes-footer .linkedin-footer {
+  margin-right: 15px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer .cotas-vendidas h1 {
+    margin-bottom: 4px;
+  }
+  footer .cotas-vendidas h2 {
+    margin-bottom: 4px;
+  }
+  footer .cotas-vendidas h3 {
+    margin-bottom: 4px;
+    margin-top: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,235 @@
+body {
+    background: url(../images/bg-geral.jpg) repeat;
+    background-size: contain;
+}
+
+.home {
+    background: url(../images/home-img.png) no-repeat;
+    background-size: cover;
+    padding-top: 4%;
+    padding-bottom: 43%;
+
+    img {
+        width: 68%;
+    }
+    
+    p {
+        font-family: 'AkzidenzGroteskBQ MdCndAlt', sans-serif;
+        color: white;
+        font-size: 2.9vw;
+        padding-top: 5%;
+        line-height: 3.4vw;
+    }
+
+    .img-paulistao {
+        width: 45%;
+        padding-top: 30px;
+    }
+    
+    h3 {
+        font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+        font-size: 3.7vw;
+        color: #ea2667;
+        font-weight: 900;
+    }
+}
+
+.engajamento {
+    padding-top: 10px;
+
+    h2 {
+        font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+
+    h4 {
+        font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+        padding-top: 15px;
+    }
+
+    .numeros {
+        h4 {
+            font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+            font-size: 7vw;
+            color: #5bc5f2;
+        }
+
+        h5 {
+            font-family: 'AkzidenzGroteskBQ BdCndAlt', sans-serif;
+            color: #5bc5f2;
+            font-size: 2.3vw;
+            margin-top: -15px;
+        }
+
+        span {
+            text-transform: uppercase;
+            font-size: 4.4vw;
+        }
+
+        small {
+            font-family: 'AkzidenzGroteskBQ MdCndAlt', sans-serif;
+            color: #5bc5f2;
+        }
+    }
+}
+
+.redes {
+    padding-top: 50px;
+
+    a {
+        margin-right: 30px;
+    }
+
+    .row-redes {
+        display: flex;
+        justify-content: center;
+
+        img {
+            margin-right: 15px;
+        }
+    }
+}
+
+.info-transmissao {
+    .logo-paulistao {
+        width: 35%;
+        padding-top: 55px;
+    }
+
+    .img-transmissao {
+        margin-top: -6%;
+        padding-bottom: 11%;
+    }
+}
+
+.conteudo {
+    .txt-conteudo {
+        h1 {
+            font-family: 'Helvetica Cond', sans-serif;
+            font-size: 3vw;
+            color: #e72868;
+        }
+
+        h2 {
+            font-family: 'Helvetica Roman', sans-serif;
+            font-size: 2.2vw;
+            color: white;
+        }
+
+        h3 {
+            font-family: 'ATT Aleck Cd Bold', sans-serif;
+            font-size: 2vw;
+            color: white;
+            padding-top: 30px;
+        }
+
+        p {
+            font-family: 'ATT Aleck Cd Regular', sans-serif;
+            font-size: 1vw;
+            color: white;
+            text-align: left;
+            padding-left: 20%;
+        }
+    }
+}
+
+.numeros-audiencia {
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .home {
+        background: url(../images/home-img-mobile.png) no-repeat;
+        background-size: cover;
+        padding-top: 13%;
+        padding-bottom: 45%;
+
+        img {
+            width: 75%;
+        }
+
+        p {
+            font-size: 3.5vw;
+            padding-right: 5px;
+        }
+
+        .img-paulistao {
+            padding-top: 2%;
+        }
+    }
+
+    .engajamento {
+        h4 {
+            padding-top: 5px;
+        }
+        
+        .numeros {
+            h5 {
+                margin-top: -10px;
+            }
+
+            h4 {
+                margin-top: 5px;
+            }
+        }
+
+        small {
+            font-family: 'AkzidenzGroteskBQ MdCndAlt', sans-serif;
+            color: #5bc5f2;
+            font-size: 9px;
+        }
+
+    }
+
+    .redes {
+        padding-top: 30px;
+        
+        .row-redes {
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+    .conteudo {
+        .txt-conteudo {
+            h1 {
+                font-size: 4vw;
+            }
+            
+            h2 {
+                font-size: 2.7vw;
+            }
+            
+            h3 {
+                font-size: 2.4vw;
+                padding-top: 0px;
+            }
+
+            p {
+                font-size: 1.5vw;
+                padding-left: 3%;
+            }
+        }
+    }
+
+    .info-transmissao {
+        .logo-paulistao {
+            padding-top: 15px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}
